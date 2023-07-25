@@ -1,0 +1,17 @@
+<h2>We played paper!</h2>
+
+<% if @cpu_pick == 'rock'%>
+  <h2>They played rock!</h2>
+  <% elsif @cpu_pick == 'paper'%>
+  <h2>They played paper!</h2>
+  <% else %>
+  <h2>They played scissors!</h2>
+<% end %>
+
+<% if @cpu_pick == 'rock'%>
+  <h2>We won!</h2>
+  <% elsif @cpu_pick == 'paper'%>
+  <h2>We tied!</h2>
+  <% else %>
+  <h2>We lost!</h2>
+<% end %>
